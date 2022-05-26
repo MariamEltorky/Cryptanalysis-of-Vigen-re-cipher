@@ -1,1 +1,6 @@
 # Cryptanalysis-of-Vigen-re-cipher
+This type of cipher begins with the priming key of length n, Encryption for the first n characters is done the same way (using the key) as for the simple shift vigenere, but after that, to encipher the ith character of the plaintext, we add to it the (i-n)th letter of the plaintext. And an auto key vigenere. First, we write the plaintext, and underneath it we write the priming key, followed by as much of the plaintext as necessary to fill out the line. 
+So that The Vigenère cipher is a method of encrypting alphabetic text based on the letters of a keyword by using a series of interwoven Caesar cipher. It employs a 
+polyalphabetic substitution form and it must use modulo so that the encrypted character does not exceed the character limit in the ASCII table.
+And Plain Text is Un-encrypted text or message in its original-human readableform. Plain text is the input of an encryption process and the output of a decryption process. Also called clear text, it is the opposite of ciphertext. And Cipher Text is an algorithm that is applied to plain text to get ciphertext. It is 
+the unreadable output of an encryption algorithm. The term "cipher" is sometimes used as an alternative term for ciphertext. The ciphertext is not understandable until it has been converted into plain text using a key.
